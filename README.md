@@ -34,3 +34,9 @@ Tugas ini merupakan program C++ yang menangani operasi-operasi dasar pada vektor
 
 ## Transformasi Elementer
 ![Transformasi Elementer](https://github.com/izuen/Alin-Tugas-Vector-CPP/blob/main/images/6.png?raw=true)
+
+
+## Kelompok 25
+Anggota:  
+1. 230401010107 - RUSYADI  
+2. 230401010133 - AHMAD AQIL KHAIRUN NADZAR  
