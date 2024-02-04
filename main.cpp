@@ -7,7 +7,7 @@
 using namespace std;
 
 // PLEASE OPEN README.md before run program
-const bool isDummy = true;      // <- Edit mode sesuai dengan kebutuhan
+const bool isDummy = false;      // <- Edit mode sesuai dengan kebutuhan
 
 int inputPilihan() {
     int pilihan;
@@ -48,24 +48,34 @@ void vectorOperation(int pilih) {
         vector1 = {1, 2, 3};
         vector2 = {4, 5, 6};
     } else {
+        int n = 3;
+
         cout << "Masukkan nilai untuk Vector 1: ";
-        while (cin >> num) {
+        for (int i = 0; i < n; ++i) {
+            cin >> num;
             vector1.push_back(num);
         }
 
-        cout << "Masukkan nilai untuk Vector 2: ";
-        while (cin >> num) {
-            vector2.push_back(num);
+        if (pilih != 5)
+        {
+            cout << "Masukkan nilai untuk Vector 2: ";
+            for (int i = 0; i < n; ++i) {
+                cin >> num;
+                vector2.push_back(num);
+            }
         }
+        cout << endl;
     }
 
     cout << "Vector 1: ";
     displayVector(vector1);
 
-    cout << "Vector 2: ";
-    displayVector(vector2);
+    if (pilih != 5)
+    {
+        cout << "Vector 2: ";
+        displayVector(vector2);
+    }
 
-    
     switch (pilih) {
         case 1:
             penjumlahanExt(vector1, vector2);
@@ -80,7 +90,7 @@ void vectorOperation(int pilih) {
             perkalianExt(vector1, vector2);
             break;
         case 5:
-            transformasiExt(vector1, vector2);
+            transformasiExt(vector1);
             break;
     }
 }

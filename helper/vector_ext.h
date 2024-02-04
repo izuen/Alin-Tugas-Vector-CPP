@@ -13,6 +13,6 @@ void dotProductExt(const vector<int>& vector1, const vector<int>& vector2);
 
 void perkalianExt(const vector<int>& vector1, const vector<int>& vector2);
 
-void transformasiExt(const vector<int>& vector1, const vector<int>& vector2);
+void transformasiExt(const vector<int>& vector1);
 
 #endif

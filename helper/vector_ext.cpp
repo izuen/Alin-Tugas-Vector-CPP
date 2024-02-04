@@ -31,7 +31,7 @@ void perkalianExt(const vector<int>& vector1, const vector<int>& vector2) {
     displayVector(product);
 }
 
-void transformasiExt(const vector<int>& vector1, const vector<int>& vector2) {
+void transformasiExt(const vector<int>& vector1) {
     // Melakukan transformasi elemen vektor
     int scalar = 2;
     vector<int> transformed = transformVector(vector1, scalar);
