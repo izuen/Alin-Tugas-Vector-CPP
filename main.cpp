@@ -14,11 +14,11 @@ int inputPilihan() {
 
     while (true) {
         cout << "Pilih operasi matriks:\n";
-        cout << "1. Penjumlahan\n";                     // Sesi ?  
-        cout << "2. Pengurangan\n";                     // Sesi ?
-        cout << "3. Dot Product\n";                     // Sesi ?
-        cout << "4. Perkalian\n";                       // Sesi ?
-        cout << "5. Transformasi Elementer\n";          // Sesi ?
+        cout << "1. Penjumlahan\n";                     // Sesi 2 
+        cout << "2. Pengurangan\n";                     // Sesi 2
+        cout << "3. Dot Product\n";                     // Sesi 2
+        cout << "4. Perkalian\n";                       // Sesi 2
+        cout << "5. Transformasi Elementer\n";
         cout << "Pilihan: ";
         cin >> pilihan;
         
