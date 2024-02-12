@@ -27,7 +27,7 @@ void dotProductExt(const vector<int>& vector1, const vector<int>& vector2) {
 void perkalianExt(const vector<int>& vector1, const vector<int>& vector2) {
     // Melakukan perkalian elemen vektor
     vector<int> product = multiplyElements(vector1, vector2);
-    cout << "Element-wise Product: ";
+    cout << "Cross Product: ";
     displayVector(product);
 }
 
