@@ -7,7 +7,7 @@
 using namespace std;
 
 // PLEASE OPEN README.md before run program
-const bool isDummy = false;      // <- Edit mode sesuai dengan kebutuhan
+const bool isDummy = true;      // <- Edit mode sesuai dengan kebutuhan
 
 int inputPilihan() {
     int pilihan;
